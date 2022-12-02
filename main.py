@@ -28,7 +28,7 @@ class MyWidget(QMainWindow):
         size = random.randint(5, 600)
         r, g, b = random.randint(0, 255), random.randint(0, 255), random.randint(0, 255)
         qp.setBrush(QColor(r, g, b))
-        qp.drawEllipse(random.randint(0, 800), random.randint(0, 600), a, a)
+        qp.drawEllipse(random.randint(0, 800), random.randint(0, 600), size, size)
 
 
 if __name__ == '__main__':
